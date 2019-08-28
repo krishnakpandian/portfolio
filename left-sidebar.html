@@ -38,21 +38,22 @@
 									<section id="sidebar">
 										<section>
 											<header>
-												<h3>Entrepreneurship Comp. 2018</h3>
+												<h3>DisasterAlert</h3>
 											</header>
-											<a href="https://docs.google.com/document/d/1qC3zUJn5RLLbvV-N_e7RdmvxtnH-WsqBT5qI63cDy4I/edit#heading=h.ikd6asfkh3bw" class="image featured" target ="_blank"><img src="images/projectimg/untether.png" alt="" target ="_blank"/></a>
-											<p>This is a side project that me and a group of friends of mine tasked ourselves with. For the 2018 entrepreneurship competition we wanted to build a viable product with a functioning model. We built solar charging pants that worked as a proof of concept but I was so proud of this project for it getting to the final round of the school entrepreneurship competition.</p>
-											<ul class="actions">
-												<li><a href="https://docs.google.com/document/d/1qC3zUJn5RLLbvV-N_e7RdmvxtnH-WsqBT5qI63cDy4I/edit#heading=h.ikd6asfkh3bw" class="button" target ="_blank">Check it out!</a></li>
-											</ul>
+											<a href="https://github.com/krishnakpandian/disasterAlert/tree/master/disaster_alert_server-master" class="image featured"><img src="images/projectimg/CruzHacks_Pic.jpg" alt="" /></a>
+											<p>For this competition, my team and I wanted to code an Amazon Alexa just because it seemed like an interesting product to work with.
+										We had Alexa compile information from USGS to check for fire information and compared with a database of contacts to see if an friend/relative was near any location.
+										We got our product working and used an earthquake simulator to represent damage. During this project, I learned a lot of JSON and databases even though I primarily worked on the Alexa Skill and the html and css for our website.We got 2nd Place!</p>
+										<a href="https://github.com/krishnakpandian/disasterAlert/tree/master/disaster_alert_server-master" class="button" target ="_blank">Check it out!</a>
 										</section>
 										<section>
 											<header>
-												<h3>Random Number Generator</h3>
+												<h3></h3>
 											</header>
-											<a href="" class="image featured"><img src="images/projectimg/rng.jpg" alt="" /></a>
-											<p>This was another side project I worked on that my teacher recommended me to work. I really enjoyed soldering during my PCB project that I decided to solder in many components to build a Random Number Generator. It was mostly for fun and I got it generating number based on values 0-9. I also found out that random number generators aren't completely random.</p>
-											
+											<!--<a href="" class="image featured" target ="_blank"><img src="" alt="" target ="_blank"/></a>
+											-->
+											<iframe width="360" height="315" src="https://www.youtube.com/embed/o0VLEKaTDWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<p>This was one of the craziest group assignments I have ever worked on. For this class assignment we had to remake the game of battleship from scratch using a microcontroller. This is known to be one of the most difficult assignments on our campus and my partner and I took up the challenge. There was so much going on from using hashing to create security, random number seeding in C, and optimizing the microcontroller to work efficiently. Overall, we got most of it working, as of right now we have 2 AI players playing the game independently and fairly.</p>
 										</section>
 									</section>
 
@@ -65,20 +66,64 @@
 											<h2>Projects</h2>
 				
 										</header>
-										<a href="https://github.com/krishnakpandian/disasterAlert/tree/master/disaster_alert_server-master" class="image featured" target ="_blank"><img src="images/projectimg/CruzHacks_Pic.jpg" alt="" width ='300' height ='500'/></a>
-										<p>This is my most recent project I've worked with a team of other programmers. This was for a hackathon called CruzHacks at UC Santa Cruz. This was my second hackathon at this point and I was still learning some of the fundamentals of coding. 
-										For this competition, my team and I wanted to code an Amazon Alexa just because it seemed like an interesting product to work with. We wanted to make something with Alexa that would emphasize communicating to you versus a feedback response.
-										Our initial product idea was to use an accelerometer and connect it with Alexa so it would be able to detect and send notifications of an earthquake. After extensive research and having the Amazon Alexa judge tell us that this product would be 
-										impossible. It was disheartening to hear the impossibility of our idea but he also mentioned how it's impossible to send notifications to itself. My team and I knew that he was wrong about that after finding API's online. We decided to restructure our 
-										product to be a notification system in case a relative was in an accident. We had Alexa compile information from USGS to check for fire information and compared with a database of contacts to see if an friend/relative was near a fire and it would notify you.
-										We got our product working and used an earthquake simulator to represent damage and created a working proof of concept. During this project, I learned a lot of JSON and started working with databases with website development. It was an extremely fun project to work on 
-										and I'm learning more about JSON mainly because of this project. I was really proud of my team for getting 2nd place in the Amazon Alexa category overall.</p>
-										<a href="https://github.com/krishnakpandian/disasterAlert/tree/master/disaster_alert_server-master" class="button" target ="_blank">Check it out!</a>
+										<!-- <a href="https://github.com/krishnakpandian/disasterAlert/tree/master/disaster_alert_server-master" class="image featured" target ="_blank"><img src="images/projectimg/CruzHacks_Pic.jpg" alt="" width ='300' height ='500'/></a>
+										-->
+										<iframe width="760" height="515" src="https://www.youtube.com/embed/Rt_PwCp3IWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+										<p>
+											Up until this point, this has been the biggest project I have ever worked on. This sounds crazy but a team of friends and I brought a microwave to hackathon and we decided to hack it. We recreated it as a smart microwave that is Alexa controlled, with a locking mechanism using arduino, with surge prcing and image recognition using google vision and authorize.net. To say the least, there was a lot going on in this project. For this project, I primarily worked on remodeling the microwave and reverse engineering the logic on the controller safely. On the first day of hacking my team and I focused on dismantling the microwave and figuring out how to access the buttons. It was difficult for a while until one of my partners realized it was a capacitive touch pad so it works by setting up certain combinations. After a long and tedious guessing, we were able to find the button combination for "add 30 seconds". This was enough for us to do use a switch to click a button that would add 30 seconds. 
+
+											<br /><br />From there we focused on the programming aspect. I began working on a python script that would check the outputs of a google vision function my friend was running and that would allow us to pull a value from a dictionary and check what is the time we can use. Unfortunately, we didn't have a database filled with information that we could use to cross check so at the competition we had a limited image selection of popcorn and muffins. I also helped a bit with the arduino to make it so it would rotate a knife so it would keep the microwave locked while it was cooking. The idea of this was to make it so it could be used in a communal setting so anyone could use it but not everyone could steal your food. My partners worked on the server side of things with the Alexa and Authorize.net but it all came together somewhat nicely. We kept everything running using heroku and Google Cloud Platform since we had a developer account in heroku and we were given free GCP credit at the event.
+											
+											<br /><br />The programming was difficult but ultimately this was one of the coolest, most memorable, and most dangerous projects I have ever made. I learned a lot and this project has inspired me to learn so many new things. Even though, I haven't worked with authorize.net I want to begin working on projects that utilize it in new and unique ways. I also have made it a committment to learn javascript and apply it's abilities in web app development. Overall, this was one of my favorite projects of all time. We also won best IOT/hardware hack and best use of a qualcomm device at the competition.
+										</p>
+										<a href="https://devpost.com/software/muicrowave" class="button" target ="_blank">Check it out!</a>
 									</article>
 
 							</div>
 						</div>
-						<div class="row features">
+						
+							
+			
+							
+													<div class="row features">
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a href="https://docs.google.com/document/d/1qC3zUJn5RLLbvV-N_e7RdmvxtnH-WsqBT5qI63cDy4I/edit#heading=h.ikd6asfkh3bw" class="image featured" target="_blank"><img src="images/projectimg/untether.png" alt="" /></a>
+								</div>
+								<header>
+									<h3>Untether</h3>
+								</header>
+								<p>This is a side project that me and a group of friends of mine tasked ourselves with. For the 2018 entrepreneurship competition we wanted to build a viable product with a functioning model. We built solar charging pants that worked as a proof of concept but I was so proud of this project for it getting to the final round of the school entrepreneurship competition. There was a lot mechanics and calculations that had to be done in order to ensure product safety. Ultimately, it worked out and despite not moving forward with the project, it was defintely one of the most fun things I have worked on.</p>
+								<ul class="actions">
+									<li><a href="https://docs.google.com/document/d/1qC3zUJn5RLLbvV-N_e7RdmvxtnH-WsqBT5qI63cDy4I/edit#heading=h.ikd6asfkh3bw" class="button" target ="_blank">Check it out!</a></li>
+								</ul>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a href="https://github.com/krishnakpandian/Pokemon_Twitter_Bot" class="image featured" target="_blank"><img src="images/Twitter_Bot_Success.png" alt="" /></a>
+								</div>
+								<header>
+									<h3>Pokemon Twitter Bot</h3>
+								</header>
+								<p>This is a small project I worked on the side but I finally created my first ever Twitter bot. I used python to create a bot that would tweet a Pokemon picture with it's name and pokedex number. I learned a lot about debugging and issues developers may run into, for example I found issues with checking which tweets are new so to resolve that I added a text file to store the last searched tweet id. I also found out not all the libraries we are given are straightforward such as like and retweet as the program will crash if a tweet is already liked. It was a nice experience playing with the twitter API. </p>
+								<ul class="actions">
+									<li><a href="https://github.com/krishnakpandian/Pokemon_Twitter_Bot" class="button" target ="_blank">Check it out!</a></li>
+								</ul>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a href="https://github.com/krishnakpandian/Smash_Bros_Google_Trends" class="image featured" target ="_blank"><img src="images/Smash_Visualization_Graph.png" alt="" /></a>
+								</div>
+								<header>
+									<h3>Smash Bros Google Trends Visualization</h3>
+								</header>
+								<p>I have always been super interested in data science and how companies use it to analyze trends and manage information. This was my first time using matplotlib, pandas, and numpy. In this short little project, I worked on analyzing the data of Smash bros over the past few years. I was able to do this since google stores there search data as CSV information. I downloaded that data and played with regressions and bar graph data. This was a nice intro into using matplotlib and I defintely want to use jupyter notebook more often. </p>
+								<ul class="actions">
+									<li><a href="https://github.com/krishnakpandian/Smash_Bros_Google_Trends" class="button" target ="_blank">Check it out!</a></li>
+								</ul>
+							</section>
+							<div class="row features">
 							<section class="col-4 col-12-narrower feature">
 								<div class="image-wrapper first">
 									<a href="https://docs.google.com/document/d/1sDJWK07z6-8e7ZX-QyGN8cWUptzzg6ZtSwXbrCJ7Ew0/edit#heading=h.qxna364s0ox3" class="image featured" target="_blank"><img src="images/projectimg/message_board.JPG" alt="" /></a>
@@ -113,46 +158,6 @@
 								<p>This was an individual project that each person was supposed to create a PCB. I decided to develop a low battery indicator and this project has taught me so much about the designing and modeling of many circuity boards. It's a very tedious and difficult project, however I thoroughly enjoyed building and soldering this even though my model didn't work.</p>
 								<ul class="actions">
 									<li><a href="https://docs.google.com/document/d/1EDRYWhQYg3qr8hzlnoWE_E05JTdOCN0QzKm18lNZby8/edit?usp=sharing" class="button" target="_blank">Check it out!</a></li>
-								</ul>
-							</section>
-							
-							
-							
-													<div class="row features">
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper first">
-									<a href="https://docs.google.com/document/d/11fRajy9tOxhCluqmfQ-c1AqRDc7zBcYyce4IOaMa6bk/edit" class="image featured" target="_blank"><img src="images/projectimg/mitappinventor.jpg" alt="" /></a>
-								</div>
-								<header>
-									<h3>MIT App Inventor</h3>
-								</header>
-								<p>This was the first time I worked on app development. My partner and I modified and improved an application currently on the MIT app inventor demo store. I learned sequential programming and what it means to be a pair programmer as this was my first team engineering project.</p>
-								<ul class="actions">
-									<li><a href="https://docs.google.com/document/d/11fRajy9tOxhCluqmfQ-c1AqRDc7zBcYyce4IOaMa6bk/edit" class="button" target ="_blank">Check it out!</a></li>
-								</ul>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="https://docs.google.com/document/d/1wex0Ry1GGhG12MrjzhaSNrap0Cn1cmbDn6y6fwj-Za0/edit" class="image featured" target="_blank"><img src="images/projectimg/pirsensorcode.png" alt="" /></a>
-								</div>
-								<header>
-									<h3>SnapSafe</h3>
-								</header>
-								<p>For our annual final competition, my team and I competed to develop the best entrepreneurial product. We decided to build a car security system using products sponsored by GE, swift, and python. Specifically in this project, I focused on developing the python code for the raspberry pi and we had so much potential to develop a full product. However, we struggled to implement the IOS application alongside our working security sensor. We were able to make it to the final competition and definitely with a little more time we feel like we could have won.</p>
-								<ul class="actions">
-									<li><a href="https://docs.google.com/document/d/1wex0Ry1GGhG12MrjzhaSNrap0Cn1cmbDn6y6fwj-Za0/edit" class="button" target ="_blank">Check it out!</a></li>
-								</ul>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="https://docs.google.com/document/d/1huo7lLqbel565jwS4lh0G08PiiKYTpWQdlTtkrbjB3A/edit?usp=sharing" class="image featured" target ="_blank"><img src="images/projectimg/Machine.jpg" alt="" /></a>
-								</div>
-								<header>
-									<h3>Machine Control Feedback</h3>
-								</header>
-								<p>In this team project we were required to build a machine that used robot feedback mechanism to solve a problem for a manufacturing company. We developed an air ventilation system using Vex and coding in RobotC. This project was my first glimpse in C programming and understanding how machines interact with society.</p>
-								<ul class="actions">
-									<li><a href="https://docs.google.com/document/d/1huo7lLqbel565jwS4lh0G08PiiKYTpWQdlTtkrbjB3A/edit?usp=sharing" class="button" target ="_blank">Check it out!</a></li>
 								</ul>
 							</section>
 						</div>
